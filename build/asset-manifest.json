@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "./static/css/main.7e94b5e4.chunk.css",
+    "main.js": "./static/js/main.dce49eed.chunk.js",
+    "main.js.map": "./static/js/main.dce49eed.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.4f92633c.js",
+    "runtime-main.js.map": "./static/js/runtime-main.4f92633c.js.map",
+    "static/js/2.6bb61748.chunk.js": "./static/js/2.6bb61748.chunk.js",
+    "static/js/2.6bb61748.chunk.js.map": "./static/js/2.6bb61748.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.b3260baabeba44746dd549224d8221c7.js": "./precache-manifest.b3260baabeba44746dd549224d8221c7.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.7e94b5e4.chunk.css.map": "./static/css/main.7e94b5e4.chunk.css.map",
+    "static/js/2.6bb61748.chunk.js.LICENSE.txt": "./static/js/2.6bb61748.chunk.js.LICENSE.txt",
+    "static/media/HomePage.module.css": "./static/media/unity.c7ecda3b.svg",
+    "static/media/App.css": "./static/media/Podkova-ExtraBold.52a75e0a.ttf",
+    "static/media/Navigation.module.css": "./static/media/cross.3c9d836f.svg",
+    "static/media/DigitalArt.module.css": "./static/media/likeFull.206b1bbd.svg",
+    "static/media/Footer.module.css": "./static/media/youtube.46bdd62a.svg",
+    "static/media/VoteModal.module.css": "./static/media/like.89c535d2.svg",
+    "static/media/logo.svg": "./static/media/logo.d8bfaa9c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f92633c.js",
+    "static/js/2.6bb61748.chunk.js",
+    "static/css/main.7e94b5e4.chunk.css",
+    "static/js/main.dce49eed.chunk.js"
+  ]
+}

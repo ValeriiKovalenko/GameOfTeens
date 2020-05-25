@@ -1,0 +1,322 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+}
+
+.header {
+    background: url(../../img/Rectangle10.svg), url(../../img/Rectangle5.svg), url(../../img/Rectangle3.svg), url(../../img/Rectangle8.svg), url(../../img/Rectangle9.svg), url(../../img/Rectangle6.svg), url(../../img/Rectangle4.svg), url(../../img/Rectangle7.svg), linear-gradient(152deg, #FCD561 12.34%, #F8C85A 61.18%, #EDA144 98.7%);
+
+    background-repeat: no-repeat;
+    background-position: 100% 440px, 35% 489px, -5% 432px, 70% 432px, 30% 410px, 45% 396px, 90% 367px, 70% 322px, top;
+
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+
+.mainTitle {
+    position: absolute;
+    width: 89%;
+    left: 26px;
+    top: 132px;
+
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 101.5%;
+font-family: 'Podkova';
+    font-feature-settings: 'kern'off;
+
+    color: #503E9D;
+
+}
+
+
+.mainIntro {
+    position: absolute;
+    width: 290px;
+    height: 41px;
+    left: 26px;
+    top: 243px;
+
+
+    font-size: 16px;
+    line-height: 123.6%;
+
+    font-feature-settings: 'kern'off;
+
+    color: #000000;
+}
+
+.date {
+    position: absolute;
+    width: 193px;
+    height: 22px;
+    left: 26px;
+    top: 314px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 123.6%;
+    /* or 25px */
+    font-feature-settings: 'kern'off;
+    color: #000000;
+}
+
+.topBtn {
+
+    position: sticky;
+    top: 90%;
+    left: 85%;
+    width: 30.2px;
+    height: 30.2px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: -8px 5px 14px rgba(237, 161, 68, 0.5);
+
+    backdrop-filter: blur(4px);
+    border: none;
+    border-radius: 6px;
+    transform: rotate(45deg);
+    outline-color: rgb(237, 161, 68);
+}
+
+.topBtn::before {
+    content: "";
+    width: 30.2px;
+    height: 30.2px;
+    display: inline-block;
+    background-image: url(../../img/Arrow1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(-45deg);
+
+}
+
+
+
+
+.main {
+    position: relative;
+}
+
+.secondTitle {
+    position: absolute;
+    width: 266px;
+    height: 102px;
+    left: 26px;
+    top: 72px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 123.6%;
+    /* or 25px */
+    font-feature-settings: 'kern'off;
+    color: #3D3C3C;
+}
+
+.mainList {
+    width: 89%;
+    margin: 0 auto;
+    padding-top: 204px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mainListItem {
+    width: 136px;
+    height: 136px;
+    background: #DDCDFF;
+    box-shadow: -10px 10px 20px rgba(80, 62, 157, 0.1);
+    border-radius: 10px;
+    margin-bottom: 15px;
+cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainListItem>a {
+    font-size: 22px;
+    line-height: 101.5%;
+    /* or 22px */
+    width: 100%;
+    height: 100%;
+    line-height: 126px;
+    text-align: center;
+    font-feature-settings: 'kern'off;
+    color: #503E9D;
+    margin-bottom: 10px;
+    font-family: 'Podkova-Bold';
+    font-weight: bold;
+   
+}
+
+.mainListItem>span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 123.6%;
+    /* or 20px */
+    font-feature-settings: 'kern'off;
+    color: #FFFFFF;
+}
+
+.mainListItem:nth-of-type(2) {
+    background: #FFDB7E;
+    box-shadow: -10px 10px 20px rgba(251, 109, 58, 0.1);
+}
+
+.mainListItem:nth-of-type(3) {
+    background: #FFBCC4;
+    box-shadow: -10px 10px 20px rgba(224, 65, 65, 0.1);
+}
+
+.mainListItem:nth-of-type(4) {
+    background: #BAE3BF;
+    box-shadow: -10px 10px 20px rgba(68, 139, 116, 0.1);
+}
+
+.mainListItem:nth-of-type(5) {
+    background: #B6CAFF;
+    box-shadow: -10px 10px 20px rgba(0, 67, 238, 0.1);
+}
+
+.mainListItem:nth-of-type(6) {
+    background: #FFCF94;
+    box-shadow: -10px 10px 20px rgba(237, 161, 68, 0.1);
+}
+
+
+.mainListItem:nth-of-type(2)>a {
+    color: #FF8600;
+}
+
+.mainListItem:nth-of-type(3)>a {
+    color: #E04141;
+}
+
+.mainListItem:nth-of-type(4)>a {
+    color: #448B74;
+
+}
+
+.mainListItem:nth-of-type(5)>a {
+    color: #3140C3;
+}
+
+.mainListItem:nth-of-type(6)>a {
+    color: #FB6D3A;
+}
+
+
+
+
+@media(min-width: 768px) {
+
+    .header {
+        height: initial;
+        min-height: 432px;
+        background-position: 100% 175%, 75% 80%, 50% 65%, 90% 60%, 65% 55%, 80% 45%, 95% 25%, 55% 30%, top;
+
+    }
+
+    
+
+    
+
+    
+
+    .mainTitle {
+        width: 284px;
+        left: 46px;
+        top: 113px;
+
+    }
+
+    .mainIntro {
+        left: 46px;
+        top: 224px;
+    }
+
+    .date {
+        left: 46px;
+        top: 295px;
+
+    }
+
+    .secondTitle {
+        width: 319px;
+        height: 79px;
+        left: 66px;
+
+
+    }
+
+    .mainList {
+        width: 88%;
+        margin-bottom: 60px;
+
+    }
+
+    .mainListItem {
+        width: 30%;
+        margin-bottom: 20px;
+       
+    }
+    .mainListItem>a {
+        font-size: 34px;
+        font-weight: 800;
+
+    }
+
+
+
+
+}
+
+@media(min-width: 1280px) {
+    .header {
+        min-height: 720px;
+        background: url(../../img/unity.svg), url(../../img/documentsBG.svg), url(../../img/Rectangle10.svg), url(../../img/Rectangle5.svg), url(../../img/Rectangle3.svg), url(../../img/Rectangle8.svg), url(../../img/Rectangle9.svg), url(../../img/Rectangle6.svg), url(../../img/Rectangle4.svg), url(../../img/Rectangle7.svg), linear-gradient(152deg, #FCD561 12.34%, #F8C85A 61.18%, #EDA144 98.7%);
+        background-position: 65% 70%, 70% 25%, 100% 175%, 75% 80%, 50% 65%, 90% 60%, 65% 55%, 80% 45%, 95% 25%, 55% 30%, top;
+        background-repeat: no-repeat;
+    }
+
+    .mainTitle {
+        left: 91px;
+        top: 224px;
+        font-size: 64px;
+    }
+
+    .mainIntro {
+        left: 91px;
+        top: 376px;
+        font-size: 18px;
+    }
+
+    .date {
+        left: 91px;
+        top: 460px;
+        font-size: 26px;
+        width: initial;
+    }
+
+    .secondTitle {
+        left: 111px;
+        font-size: 26px;
+        width: 450px;
+    }
+
+    .mainListItem {
+        margin-bottom: 30px;
+    }
+
+    .mainListItem>a {
+        font-size: 34px;
+    }
+}

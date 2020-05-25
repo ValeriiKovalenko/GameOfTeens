@@ -1,0 +1,66 @@
+.logo {
+    position: fixed;
+    width: 103px;
+    height: 22.33px;
+    left: 15px;
+    top: 20px;
+    z-index: 5;
+
+}
+.burger {
+    position: fixed;
+    width: 28px;
+    height: 16px;
+    /* left: 276px; */
+    right: 16px;
+    top: 24px;
+    cursor: pointer;
+    background-image: url(../../img/burger.svg);
+    background-color: transparent;
+    background-size: contain;
+    border: none;
+    outline-color: #FCD561;
+    z-index: 5;
+}
+.cross {
+    position: fixed;
+    width: 21.8px;
+    height: 20px;
+    /* left: 279px; */
+    right: 16px;
+    top: 22px;
+    cursor: pointer;
+    background-image: url(../../img/cross.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    border: none;
+    outline-color: #FCD561;
+    z-index: 5;
+}
+
+@media(min-width: 768px)  {
+    .logo {
+
+        left: 46px;
+        top: 20px;
+    }
+    .burger {
+        left: initial;
+        right: 46px;
+        top: 24px;
+    }
+    .cross {
+        left: initial;
+        right: 46px;
+        top: 24px;
+    }
+}
+
+@media(min-width: 1280px)  {
+    .logo {
+
+        left: 91px;
+        top: 20px;
+    }
+}

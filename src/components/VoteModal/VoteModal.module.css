@@ -1,0 +1,128 @@
+.modal {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 50px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 52px;
+    border-radius: 10px;
+    box-shadow: -10px 10px 20px rgba(1, 1, 1, 0.1);
+
+    z-index: 5;
+
+
+}
+
+.hidden {
+    display: none;
+}
+
+.title {
+    width: 280px;
+    height: 50px;
+    margin: 0 auto;
+
+
+    /* font-family: Montserrat; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    /* or 127% */
+
+    font-feature-settings: 'kern'off;
+
+    color: #3D3C3C;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form>label>input {
+
+    width: 291px;
+    height: 44px;
+    background: #F7F6F7;
+    border: 1px solid transparent;
+    outline: none;
+    font-size: 16px;
+    font-family: inherit;
+    padding-left: 5%;
+    border-radius: 22px;
+}
+
+
+.form>label>input:focus:valid {
+    border-color: green;
+}
+
+.form>label>input:focus:invalid {
+    border-color: #FF7294;
+}
+
+.form>label>select {
+    width: 291px;
+    height: 44px;
+    background: #F7F6F7;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: inherit;
+    padding-left: 5%;
+    border-radius: 22px;
+}
+.form>label>select>option {
+    border-radius: 22px;
+}
+
+.form>label>span {
+    /* font-family: Montserrat; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 183.6%;
+    /* or 29px */
+    font-feature-settings: 'kern'off;
+    color: #3D3C3C;
+}
+
+.form>label:nth-of-type(4) {
+    margin-bottom: 30px;
+}
+
+.submit {
+    width: 212px;
+    height: 44px;
+
+    background: #A9ADB3;
+    border-radius: 10px;
+    background-image: url(../../img/like.svg);
+    background-repeat: no-repeat;
+    background-position: 23px 12px;
+    padding-left: 55px;
+    /* font-family: Montserrat; */
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 123.6%;
+    /* or 25px */
+    text-align: left;
+    font-feature-settings: 'kern'off;
+
+    color: #FFFFFF;
+}
+
+
+@media(min-width: 768px) {
+
+
+    .modal {
+        width: 388px;
+        height: 584px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
