@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad58291569fc7283c1d5c94387078486",
+    "revision": "9e8cc3cfaec22b107b12c7f0d721061f",
     "url": "./index.html"
   },
   {
-    "revision": "427cb69c061bb5a1ef4f",
-    "url": "./static/css/main.7e94b5e4.chunk.css"
+    "revision": "69d84cd2bf185ae8d63a",
+    "url": "./static/css/main.40deb28d.chunk.css"
   },
   {
-    "revision": "f791e497f882f5ba8ab3",
-    "url": "./static/js/2.6bb61748.chunk.js"
+    "revision": "049f1e08d4c30803bd50",
+    "url": "./static/js/2.1ddf241a.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "./static/js/2.6bb61748.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.1ddf241a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "427cb69c061bb5a1ef4f",
-    "url": "./static/js/main.dce49eed.chunk.js"
+    "revision": "69d84cd2bf185ae8d63a",
+    "url": "./static/js/main.272de81e.chunk.js"
   },
   {
     "revision": "fe492bec4e044aabfe13",
@@ -72,16 +72,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/Rectangle9.69b4badd.svg"
   },
   {
+    "revision": "d090faf1ea720c1ab6c79db6e79eac70",
+    "url": "./static/media/blueBurger.d090faf1.svg"
+  },
+  {
     "revision": "3ad2506bdac29ff6b428b18c839cf03f",
     "url": "./static/media/burger.3ad2506b.svg"
+  },
+  {
+    "revision": "4e068533a8529f668ffa4c7b68b9d20c",
+    "url": "./static/media/colorLogo.4e068533.svg"
   },
   {
     "revision": "3c9d836ffd96ae8d8d303990368d4854",
     "url": "./static/media/cross.3c9d836f.svg"
   },
   {
-    "revision": "7ea49e402e8fab66c32dd767157cd484",
-    "url": "./static/media/documentsBG.7ea49e40.svg"
+    "revision": "bfaae4226dade1a97579a678e021cfe7",
+    "url": "./static/media/documentsBG.bfaae422.svg"
   },
   {
     "revision": "9ab0b7450c3931a45487804a675e54ff",
@@ -106,6 +114,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d8bfaa9cf6ec72221d23c88f888b6e56",
     "url": "./static/media/logo.d8bfaa9c.svg"
+  },
+  {
+    "revision": "02281d4b9b9854291a38924f68ce85d6",
+    "url": "./static/media/succes.02281d4b.svg"
   },
   {
     "revision": "c7ecda3b4dae9970f34f4a019eae676d",

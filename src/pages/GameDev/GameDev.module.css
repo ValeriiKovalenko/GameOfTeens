@@ -244,9 +244,9 @@
 
 .topBtn {
 
-    position: sticky;
+    position: fixed;
     top: 92%;
-    left: 85%;
+    right: 16px;
     width: 30.2px;
     height: 30.2px;
     background: rgba(255, 255, 255, 0.5);
@@ -278,7 +278,7 @@
     height: 20px;
     
     right: 16px;
-    top: 60px;
+    top: 22px;
     cursor: pointer;
     background-image: url(../../img/cross.svg);
     background-repeat: no-repeat;
@@ -291,7 +291,16 @@
 }
 @media(min-width: 768px) {
     .closeBtn {
+        top: 60px;
         right: 50%;
         transform: translateX(180px)
+    }
+    .topBtn {
+        right: 46px;
+    }
+}
+@media(min-width: 1280px) {
+    .topBtn {
+        right: 91px;
     }
 }

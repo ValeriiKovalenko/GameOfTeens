@@ -21,6 +21,8 @@ class HomeModal extends Component {
           });
         }, 0);
       }
+
+      
     
     
     
@@ -30,6 +32,11 @@ class HomeModal extends Component {
         <div className={style.overlay}>
             <nav ref={this.navRef} className={modalIsOpen ? style.nav : style.hidden}>
                 <ul className={style.navList}>
+                <li className={style.navItem}>
+                        <NavLink exact to="/">
+                            <h3 className={style.directionName}>Головна</h3>
+                        </NavLink>
+                    </li>
                     <li className={style.navItem}>
                         <NavLink exact to="/htmlcss">
                             <h3 className={style.directionName}>HTML+CSS</h3>

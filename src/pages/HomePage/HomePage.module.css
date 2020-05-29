@@ -10,8 +10,8 @@ body {
     background: url(../../img/Rectangle10.svg), url(../../img/Rectangle5.svg), url(../../img/Rectangle3.svg), url(../../img/Rectangle8.svg), url(../../img/Rectangle9.svg), url(../../img/Rectangle6.svg), url(../../img/Rectangle4.svg), url(../../img/Rectangle7.svg), linear-gradient(152deg, #FCD561 12.34%, #F8C85A 61.18%, #EDA144 98.7%);
 
     background-repeat: no-repeat;
-    background-position: 100% 440px, 35% 489px, -5% 432px, 70% 432px, 30% 410px, 45% 396px, 90% 367px, 70% 322px, top;
-
+    /* background-position: 100% 440px, 35% 489px, -5% 432px, 70% 432px, 30% 410px, 45% 396px, 90% 367px, 70% 322px, top; */
+    background-position: 110% 137%, 35% 85%, -5% 80%, 70% 79%, 30% 75%, 45% 80%, 90% 70%, 70% 65%, top;
     width: 100%;
     height: 100vh;
 
@@ -68,9 +68,9 @@ font-family: 'Podkova';
 
 .topBtn {
 
-    position: sticky;
-    top: 90%;
-    left: 85%;
+    position: fixed;
+    top: 93%;
+    right: 16px;
     width: 30.2px;
     height: 30.2px;
     background: rgba(255, 255, 255, 0.5);
@@ -81,6 +81,7 @@ font-family: 'Podkova';
     border-radius: 6px;
     transform: rotate(45deg);
     outline-color: rgb(237, 161, 68);
+    z-index: 1;
 }
 
 .topBtn::before {
@@ -123,7 +124,7 @@ font-family: 'Podkova';
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .mainListItem {
@@ -274,6 +275,10 @@ cursor: pointer;
 
     }
 
+    .topBtn {
+        right: 46px;
+    }
+
 
 
 
@@ -283,7 +288,8 @@ cursor: pointer;
     .header {
         min-height: 720px;
         background: url(../../img/unity.svg), url(../../img/documentsBG.svg), url(../../img/Rectangle10.svg), url(../../img/Rectangle5.svg), url(../../img/Rectangle3.svg), url(../../img/Rectangle8.svg), url(../../img/Rectangle9.svg), url(../../img/Rectangle6.svg), url(../../img/Rectangle4.svg), url(../../img/Rectangle7.svg), linear-gradient(152deg, #FCD561 12.34%, #F8C85A 61.18%, #EDA144 98.7%);
-        background-position: 65% 70%, 70% 25%, 100% 175%, 75% 80%, 50% 65%, 90% 60%, 65% 55%, 80% 45%, 95% 25%, 55% 30%, top;
+        /* background-position: 65% 70%, 70% 25%, 100% 175%, 75% 80%, 50% 65%, 90% 60%, 65% 55%, 80% 45%, 95% 25%, 55% 30%, top; */
+        background-position: 65% 70%, 70% 25%, 100% 125%, 36% 88%, 40% 71%, 83% 62%, 20% 95%, 77% 75%, 55% 60%, 30% 85%, top;
         background-repeat: no-repeat;
     }
 
@@ -318,5 +324,9 @@ cursor: pointer;
 
     .mainListItem>a {
         font-size: 34px;
+    }
+    .topBtn {
+       
+        right: 91px;
     }
 }

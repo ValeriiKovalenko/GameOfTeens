@@ -1,3 +1,5 @@
+
+
 .logo {
     position: fixed;
     width: 103px;
@@ -11,11 +13,24 @@
     position: fixed;
     width: 28px;
     height: 16px;
-    /* left: 276px; */
     right: 16px;
     top: 24px;
     cursor: pointer;
     background-image: url(../../img/burger.svg);
+    background-color: transparent;
+    background-size: contain;
+    border: none;
+    outline-color: #FCD561;
+    z-index: 5;
+}
+.blueBurger {
+    position: fixed;
+    width: 28px;
+    height: 16px;
+    right: 16px;
+    top: 24px;
+    cursor: pointer;
+    background-image: url(../../img/blueBurger.svg);
     background-color: transparent;
     background-size: contain;
     border: none;
@@ -50,6 +65,11 @@
         right: 46px;
         top: 24px;
     }
+    .blueBurger {
+        left: initial;
+        right: 46px;
+        top: 24px;
+    }
     .cross {
         left: initial;
         right: 46px;
@@ -62,5 +82,14 @@
 
         left: 91px;
         top: 20px;
+    }
+    .burger {
+        right: 91px;
+    }
+    .blueBurger {
+        right: 91px;
+    }
+    .cross {
+        right: 91px;
     }
 }

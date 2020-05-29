@@ -11,9 +11,9 @@ import style from './Footer.module.css';
                         <span>+38 067 326 95 92</span>
                         <span>+38 050 366 17 77</span>
                         <div className={style.socials}>
-                        <a href="#"></a>
-                        <a href="#"></a>
-                        <a href="#"></a>
+                        <a target="_blank" href="https://www.facebook.com/GoITeens/"></a>
+                        <a target="_blank" href="https://www.instagram.com/go_iteens/"></a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCN7NQEBOUuIoXrJZzqVb58Q/featured"></a>
                         </div>
                     </div>
                     <p className={style.copyright}>© Copyright <span>GoiTeens</span> </p>

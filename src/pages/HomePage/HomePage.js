@@ -12,12 +12,14 @@ export default class HomePage extends Component {
             modalIsOpen: false,
         }
     }
+    
 
 
 
     render() {
 
 
+    
 
         const scrollToTop = () => {
             scroll.scrollToTop();
@@ -38,11 +40,12 @@ export default class HomePage extends Component {
                     <h1 className={style.mainTitle}>Game Of Teens</h1>
                     <p className={style.mainIntro}>Велика битва за найкращий IT проект серед підлітків</p>
 
-                    <p className={style.date}>1 - 5 червня 2020</p>
+                    <p className={style.date}>1 - 7 червня 2020</p>
 
 
                 </header>
                 <main className={style.main}>
+                
                     <button onClick={scrollToTop} className={style.topBtn}></button>
                     <h2 className={style.secondTitle}>Обирай категорію і залишай свій голос за проект, який тебе вразив</h2>
 
